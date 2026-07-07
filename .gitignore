@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+/npm-debug.log*
+
+# Local Databases (SQLite)
+backend/prisma/dev.db
+backend/prisma/dev.db-journal
+
+# Environment Secrets
+.env
+.env.local
+.env.*.local
+
+# Build outputs
+dist/
+build/
+.oxlintrc.json
+
+# IDE / System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
