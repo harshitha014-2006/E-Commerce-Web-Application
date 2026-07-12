@@ -3,7 +3,6 @@ node_modules/
 /npm-debug.log*
 
 # Local Databases (SQLite)
-backend/prisma/dev.db
 backend/prisma/dev.db-journal
 
 # Environment Secrets
