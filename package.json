@@ -1,0 +1,12 @@
+{
+  "name": "aeroshop-root",
+  "version": "1.0.0",
+  "description": "Monorepo root for AeroShop",
+  "scripts": {
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "build:frontend": "cd frontend && VITE_API_URL=/api npm run build",
+    "build": "npm run install:backend && npm run install:frontend && npm run build:frontend",
+    "start": "node backend/src/server.js"
+  }
+}
